@@ -6,7 +6,7 @@ body, ul {
   padding: 0; }
 
 #sidebar {
-  background: black;
+  background: white;
   width: 200px;
   height: 100%;
   display: block;
@@ -14,20 +14,19 @@ body, ul {
   left: -200px;
   top: 0;
   transition: left 0.5s linear; }
-
-#sidebar.visible {
-  left: 0;
-  transition: left 0.5s linear; }
-
-ul li {
-  list-style: none; }
-  ul li a {
+  #sidebar ul li {
+    list-style: none;
     text-decoration: none;
-    color: #ccc;
     border-bottom: 1px solid #ccc;
     display: block;
     width: 180px;
     padding: 10px; }
+    #sidebar ul li b {
+      color: #f57e57; }
+
+#sidebar.visible {
+  left: 0;
+  transition: left 0.5s linear; }
 
 #sidebar-btn {
   display: inline-block;
@@ -50,8 +49,65 @@ ul li {
   padding: 0; }
   .container-fluid .header {
     width: 100%;
-    float: left;
     background: url("../images/pages/typography-01-770x420.jpg") no-repeat;
     background-size: cover; }
+    .container-fluid .header .fa {
+      font-size: 29px;
+      color: white;
+      width: 55px;
+      height: 55px;
+      margin-left: -10px;
+      padding: 10px;
+      border-radius: 100%;
+      background: #18afd3;
+      text-align: center; }
+  .container-fluid .layout {
+    border: 1px solid;
+    background-color: rgba(30, 100, 140, 0.5); }
+
+.row, .a {
+  border: 1px solid; }
+
+.center {
+  margin: 0 auto; }
+
+.form_layout {
+  background-color: rgba(0, 0, 0, 0.4); }
+  .form_layout .input-group .form-control:last-child {
+    border-radius: 6px;
+    padding: 21px 10px; }
+  .form_layout select {
+    padding: 13px 10px;
+    border-radius: 6px; }
+
+.btn-info {
+  background: #55bbeb;
+  background: #f57e57;
+  border-radius: 100px;
+  border: 0px;
+  margin: 20px 0;
+  padding: 13px 30px; }
+  .btn-info:hover {
+    background: #18afd3; }
+
+.row:nth-child(1) {
+  padding-top: 30px; }
+  .row:nth-child(1) .navbar-brand {
+    padding: 0 15px; }
+
+.row:nth-child(2) {
+  padding-top: 80px; }
+  .row:nth-child(2) h1 {
+    padding-top: 40px; }
+
+.form_layout {
+  padding: 30px 0;
+  margin-bottom: 160px; }
+
+.pages, .galery, .blog {
+  display: none; }
+
+.show {
+  display: block-inline; }
 
 /*# sourceMappingURL=sass.css.map */
