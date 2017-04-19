@@ -1,0 +1,89 @@
+.row:nth-child(1) {
+  padding-top: 30px; }
+
+.row:nth-child(1) .navbar-brand {
+  padding: 0 15px; }
+
+.container-fluid {
+  margin: 0;
+  padding: 0; }
+
+.container-fluid .header .fa {
+  font-size: 29px;
+  color: white;
+  width: 55px;
+  height: 55px;
+  margin-left: -10px;
+  padding: 10px;
+  border-radius: 100%;
+  background: #18afd3;
+  text-align: center; }
+
+.menu {
+  background: #18afd3;
+  border: 1px;
+  border-radius: 5px; }
+  .menu .nav > li > a:focus, .menu .nav > li > a:hover {
+    background: #f57e57; }
+  .menu .nav > li:last-child > a:focus, .menu .nav > li:last-child > a:hover {
+    background: #18afd3; }
+  .menu .nav-pills {
+    padding: 0 28px; }
+    .menu .nav-pills li a {
+      padding: 19px;
+      color: white;
+      border-radius: 0px; }
+    .menu .nav-pills .dropdown {
+      position: relative;
+      display: inline-block; }
+      .menu .nav-pills .dropdown .col-md-12 {
+        padding-left: 0px; }
+      .menu .nav-pills .dropdown .col-md-2 {
+        border-bottom: 1px solid #f57e57; }
+      .menu .nav-pills .dropdown .col-md-10 {
+        border-bottom: 1px solid rgba(245, 126, 87, 0.2); }
+      .menu .nav-pills .dropdown .col-md-12 i {
+        margin-right: 15px;
+        display: none; }
+      .menu .nav-pills .dropdown .col-md-12 a:hover {
+        color: #f57e57; }
+        .menu .nav-pills .dropdown .col-md-12 a:hover i {
+          display: inline-block; }
+    .menu .nav-pills .dropdown-content {
+      display: none;
+      position: absolute;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1; }
+      .menu .nav-pills .dropdown-content i {
+        margin-right: 15px;
+        display: none; }
+      .menu .nav-pills .dropdown-content a {
+        color: #18afd3;
+        margin: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border-top: 1px solid grey; }
+        .menu .nav-pills .dropdown-content a:hover {
+          color: #f57e57; }
+          .menu .nav-pills .dropdown-content a:hover i {
+            display: inline-block; }
+        .menu .nav-pills .dropdown-content a:nth-child(1) {
+          border: 0px; }
+    .menu .nav-pills .dropdown-content1 {
+      display: none;
+      position: absolute;
+      left: -280px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1; }
+      .menu .nav-pills .dropdown-content1 a {
+        color: #18afd3;
+        padding: 12px 0;
+        text-decoration: none;
+        display: block; }
+    .menu .nav-pills .dropdown:hover .dropdown-content {
+      display: block; }
+    .menu .nav-pills .dropdown:hover .dropdown-content1 {
+      display: block; }
+
+/*# sourceMappingURL=button.css.map */
