@@ -169,7 +169,7 @@
     border-color: orangered; }
 
 #sidebar {
-  z-index: 10;
+  z-index: 200;
   background: white;
   width: 300px;
   height: 100vh;
@@ -248,7 +248,8 @@
   position: fixed;
   right: 18px;
   top: 20px;
-  padding-left: 20px; }
+  padding-left: 20px;
+  z-index: 200; }
   .fornumber span {
     display: none;
     height: 7px;
@@ -289,7 +290,8 @@
   .header {
     width: 100vw;
     background: white;
-    position: fixed; }
+    position: fixed;
+    z-index: 70; }
     .header .col-md-7 {
       display: none; }
     .header img {
