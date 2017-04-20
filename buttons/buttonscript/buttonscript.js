@@ -3,6 +3,22 @@ $(document).ready(function () {
         $(".nav-pills").css({ "color": "white" }).html("<input placeholder='TYPE AND HIT ENTER'></input>");
         console.log("A")
     })
+    var i = 1;
+    $(".fornumber").click(function () {
+        
+        if (i == 1){
+            $(".kvadrat").css({
+                "display": "block"
+            })
+            i = 0;
+        }else{
+             $(".kvadrat").css({
+                "display": "none"
+            })
+            i = 1;
+        }
+        console.log(i)
+    })
     $(document).ready(function () {
         $('#sidebar-btn').click(function () {
             console.log($('#sidebar').width());
@@ -32,30 +48,30 @@ $(document).ready(function () {
             $(".menu").css({
                 "position": "fixed",
                 "top": 0,
-                "left":0,
+                "left": 0,
                 "width": "100vw"
             });
-           
-        }else{
-             $(".menu").css({
+
+        } else {
+            $(".menu").css({
                 "position": "static",
-                 "width": "inherit"
+                "width": "inherit"
             });
-         
+
         }
-         if (scroll >= 500) {
-              $(".daire").css({
+        if (scroll >= 500) {
+            $(".daire").css({
                 "position": "fixed",
                 "bottom": 0,
                 "right": 10
             });
-         }else{
-             $(".daire").css({
+        } else {
+            $(".daire").css({
                 "position": "absolute",
-                "right":"10px",
-                "bottom":"-500px"                
+                "right": "10px",
+                "bottom": "-500px"
             });
-         
+
         }
 
     });
