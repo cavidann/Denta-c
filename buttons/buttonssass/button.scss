@@ -31,11 +31,11 @@ $menu_width:300px;
      .nav>li:last-child>a:focus, .nav>li:last-child>a:hover{
        background: $blue;
      }
-  .nav-pills{
-padding: 0 28px;
+  .nav-pills{ 
+padding: 0 3%;
       li{
+       
         a{
-          // jgcuvu
           padding: 19px;
           color: white;
            border-radius: 0px;
@@ -141,7 +141,11 @@ i{
   }
 
 .footer{
-  padding-top: 50px;
+  // padding-top: 50px;
+  .pull-right{
+    padding-top:50px;
+  }
+  
 .end{
   line-height: 58px; 
 }
@@ -150,8 +154,11 @@ i{
  margin-top: 45px; 
 }
   .icons{
+    
     margin-top: 30%;
-    p{     
+    p{   
+      float: left;
+      margin: 0 5px;  
       font-size: 21px;
      color: lightslategrey; 
         }
@@ -168,9 +175,7 @@ i{
          color: white;
        }
         }
-        .col-md-2{
-          border: 0px;
-        }
+
         
   }
        color: white;
@@ -193,7 +198,7 @@ i{
         }
       }
       
-  margin-top: 5000px; 
+  margin-top: 700px; 
   // margin silinecek
   background: $blue;
       .col-md-2{
@@ -333,7 +338,9 @@ display: none;
       }
 
     }
-       
+       .center{
+         margin: 0 auto;
+       }
     @media (max-width: 995px) {
    .menu{
      display: none;
@@ -353,4 +360,8 @@ display: block;
     padding: 20px 10px;
    
 }
+}
+.a{
+  border: 1px solid;
+  margin: 0 auto;
 }

@@ -28,7 +28,7 @@
   .menu .nav > li:last-child > a:focus, .menu .nav > li:last-child > a:hover {
     background: #18afd3; }
   .menu .nav-pills {
-    padding: 0 28px; }
+    padding: 0 3%; }
     .menu .nav-pills li a {
       padding: 19px;
       color: white;
@@ -102,10 +102,11 @@
       display: block; }
 
 .footer {
-  padding-top: 50px;
   color: white;
-  margin-top: 5000px;
+  margin-top: 700px;
   background: #18afd3; }
+  .footer .pull-right {
+    padding-top: 50px; }
   .footer .end {
     line-height: 58px; }
   .footer .border {
@@ -114,6 +115,8 @@
   .footer .icons {
     margin-top: 30%; }
     .footer .icons p {
+      float: left;
+      margin: 0 5px;
       font-size: 21px;
       color: lightslategrey; }
     .footer .icons .fa {
@@ -127,8 +130,6 @@
       .footer .icons .fa:hover {
         background: #f57e57;
         color: white; }
-    .footer .icons .col-md-2 {
-      border: 0px; }
   .footer .logotext {
     padding-top: 7px; }
     .footer .logotext i {
@@ -239,6 +240,9 @@
   transition: all 0.2s;
   display: inline-block; }
 
+.center {
+  margin: 0 auto; }
+
 @media (max-width: 995px) {
   .menu {
     display: none; }
@@ -248,5 +252,8 @@
 @media (max-width: 1200px) {
   .menu .nav-pills li a {
     padding: 20px 10px; } }
+.a {
+  border: 1px solid;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=button.css.map */
