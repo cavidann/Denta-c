@@ -1,8 +1,18 @@
 $(document).ready(function () {
-    $(".search").click(function () {
-        $(".nav-pills").css({ "color": "white" }).html("<input placeholder='TYPE AND HIT ENTER'></input>");
-        console.log("A")
-    })
+    // $(".search").click(function () {
+    //     $(".nav-pills").css({ "color": "white" }).html("<input placeholder='TYPE AND HIT ENTER'></input><b>X</b>");
+    //     $("input").css({
+    //         "width":"98%",
+    //         "padding":"8px",
+    //         "font-size":"30px",
+    //         "background":"transparent",
+    //         "color":"white",
+    //         "border":"0px"
+    //  });
+    //     console.log("A")
+    // })
+
+   
     var i = 1;
     $(".fornumber").click(function () {
         
