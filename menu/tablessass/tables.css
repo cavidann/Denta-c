@@ -237,6 +237,15 @@ p {
 .pages, .galery, .blog {
   display: none; }
 
+pre {
+  font-size: 20px;
+  background: transparent;
+  border: 0px;
+  color: white; }
+  pre i {
+    font-size: 10px;
+    font-color: gray; }
+
 .daire {
   position: absolute;
   right: 10px;
@@ -366,13 +375,6 @@ p {
   top: 150px;
   z-index: -1; }
 
-.line .col-md-1 {
-  border-bottom: 1px solid #f57e57;
-  margin-bottom: 25px; }
-.line .col-md-11 {
-  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
-  margin-bottom: 25px; }
-
 .layout {
   background-color: rgba(0, 191, 255, 0.4);
   height: 100%; }
@@ -382,7 +384,6 @@ p {
     font-weight: 500;
     padding: 4% 0px; }
   .layout pre {
-    font-size: 20px;
     background: transparent;
     border: 0px;
     color: white; }
@@ -390,129 +391,44 @@ p {
       font-size: 10px;
       font-color: grey; }
 
-.typography .black {
-  color: black; }
-.typography .line h5 {
-  color: #18afd3; }
-.typography .line .col-md-4 {
+.tables .col-md-8 .col-md-1, .tables .col-md-8 .col-md-12 {
   padding: 0; }
-.typography .logos {
-  background: #f57e57;
-  width: 63px;
-  height: 63px;
-  border-radius: 100%;
-  text-align: center; }
-  .typography .logos img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%); }
-.typography ol {
-  padding-left: 54px; }
-  .typography ol li {
-    padding-left: 8px;
-    color: #bdbdbd; }
-    .typography ol li span {
-      color: #868686; }
-.typography ul {
-  list-style-type: none; }
-  .typography ul li i {
-    color: #18afd3;
-    padding-right: 15px; }
-.typography li {
-  color: #868686;
-  line-height: 35px; }
-.typography .col-md-8 .col-md-12, .typography .col-md-8 .col-md-8, .typography .col-md-8 .col-md-6 {
-  padding-left: 0;
-  margin-left: 0;
-  padding-right: 0;
-  margin-right: 0; }
-.typography .col-md-8 .img-lr-txt {
-  padding-left: 60px; }
-.typography .col-md-8 .img-lr-txt1 {
-  padding-right: 60px; }
-.typography .col-md-8 .betty {
-  border-radius: 100%;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 80px; }
-.typography .col-md-8 .name {
-  color: #f57e57;
-  font-size: 22px;
-  line-height: 28px;
-  letter-spacing: 0px;
-  padding: 0;
-  margin: 0; }
-.typography .col-md-8 .high {
-  background: #18afd3;
-  color: white; }
-.typography .col-md-8 .italic {
-  font-size: 15px; }
-.typography .col-md-8 .overline {
-  text-decoration: line-through; }
-.typography .col-md-8 i {
-  font-size: 24px;
-  line-height: 33px;
-  letter-spacing: 0px; }
-.typography p {
-  font-size: 15px;
-  line-height: 24px;
-  letter-spacing: 0px;
-  padding-bottom: 60px; }
-
-h1 {
+.tables .col-md-1 {
+  border-bottom: 1px solid #f57e57;
+  margin-bottom: 25px; }
+.tables .col-md-11 {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  margin-bottom: 25px; }
+.tables h1 {
   font-size: 80px;
   line-height: 100px;
   letter-spacing: 3px; }
-
-h2 {
+.tables h2 {
   font-size: 60px;
   line-height: 72px;
   letter-spacing: 1px; }
-
-h3 {
+.tables h3 {
   font-size: 46px;
   line-height: 51px;
   letter-spacing: 1; }
-
-h4 {
+.tables h4 {
   font-size: 24px;
   line-height: 33px;
   letter-spacing: 0px; }
-
-h5 {
+.tables h5 {
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0px; }
-
-h6 {
+.tables h6 {
   font-size: 18px;
   line-height: 23px;
   letter-spacing: 1px; }
-
-h1, h2, h3, h4, h5, h6 {
+.tables h2, .tables h3, .tables h4, .tables h5, .tables h6 {
   color: #434445; }
-
-p {
+.tables p {
   color: #868686; }
 
-.fa-quote-left.col-md-1 {
-  border: 0px; }
-
-.fa-quote-left {
-  font-size: 30px;
-  color: #18afd3; }
-
-.delete-pading p {
-  padding-bottom: 0px;
-  margin: 0px; }
-
-.padding {
-  padding-top: 60px; }
-
-.first_footer h4, .first_footer p {
+.footer p, .footer h4 {
   color: white; }
-.first_footer p {
-  font-size: 14px; }
 
-/*# sourceMappingURL=typography.css.map */
+/*# sourceMappingURL=tables.css.map */

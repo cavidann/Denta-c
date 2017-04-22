@@ -1,8 +1,20 @@
+* {
+  box-sizing: border-box; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif; }
 
 p {
   font-family: 'Lato', sans-serif; }
+
+pre {
+  font-size: 20px;
+  background: transparent;
+  border: 0px;
+  color: white; }
+  pre i {
+    font-size: 10px;
+    font-color: grey; }
 
 .row:nth-child(1) {
   padding-top: 30px; }
@@ -242,7 +254,7 @@ p {
   right: 10px;
   bottom: -500px; }
   .daire p {
-    padding-top: 1px;
+    padding-top: 5px;
     height: 41px;
     width: 44px;
     text-align: center;
@@ -366,13 +378,6 @@ p {
   top: 150px;
   z-index: -1; }
 
-.line .col-md-1 {
-  border-bottom: 1px solid #f57e57;
-  margin-bottom: 25px; }
-.line .col-md-11 {
-  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
-  margin-bottom: 25px; }
-
 .layout {
   background-color: rgba(0, 191, 255, 0.4);
   height: 100%; }
@@ -382,83 +387,12 @@ p {
     font-weight: 500;
     padding: 4% 0px; }
   .layout pre {
-    font-size: 20px;
     background: transparent;
     border: 0px;
     color: white; }
     .layout pre i {
       font-size: 10px;
       font-color: grey; }
-
-.typography .black {
-  color: black; }
-.typography .line h5 {
-  color: #18afd3; }
-.typography .line .col-md-4 {
-  padding: 0; }
-.typography .logos {
-  background: #f57e57;
-  width: 63px;
-  height: 63px;
-  border-radius: 100%;
-  text-align: center; }
-  .typography .logos img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%); }
-.typography ol {
-  padding-left: 54px; }
-  .typography ol li {
-    padding-left: 8px;
-    color: #bdbdbd; }
-    .typography ol li span {
-      color: #868686; }
-.typography ul {
-  list-style-type: none; }
-  .typography ul li i {
-    color: #18afd3;
-    padding-right: 15px; }
-.typography li {
-  color: #868686;
-  line-height: 35px; }
-.typography .col-md-8 .col-md-12, .typography .col-md-8 .col-md-8, .typography .col-md-8 .col-md-6 {
-  padding-left: 0;
-  margin-left: 0;
-  padding-right: 0;
-  margin-right: 0; }
-.typography .col-md-8 .img-lr-txt {
-  padding-left: 60px; }
-.typography .col-md-8 .img-lr-txt1 {
-  padding-right: 60px; }
-.typography .col-md-8 .betty {
-  border-radius: 100%;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 80px; }
-.typography .col-md-8 .name {
-  color: #f57e57;
-  font-size: 22px;
-  line-height: 28px;
-  letter-spacing: 0px;
-  padding: 0;
-  margin: 0; }
-.typography .col-md-8 .high {
-  background: #18afd3;
-  color: white; }
-.typography .col-md-8 .italic {
-  font-size: 15px; }
-.typography .col-md-8 .overline {
-  text-decoration: line-through; }
-.typography .col-md-8 i {
-  font-size: 24px;
-  line-height: 33px;
-  letter-spacing: 0px; }
-.typography p {
-  font-size: 15px;
-  line-height: 24px;
-  letter-spacing: 0px;
-  padding-bottom: 60px; }
 
 h1 {
   font-size: 80px;
@@ -473,7 +407,9 @@ h2 {
 h3 {
   font-size: 46px;
   line-height: 51px;
-  letter-spacing: 1; }
+  letter-spacing: 1;
+  margin-top: 97px;
+  margin-bottom: 28px; }
 
 h4 {
   font-size: 24px;
@@ -494,25 +430,42 @@ h1, h2, h3, h4, h5, h6 {
   color: #434445; }
 
 p {
-  color: #868686; }
+  color: #868686;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0px; }
 
-.fa-quote-left.col-md-1 {
-  border: 0px; }
+.grid .col-md-1 {
+  border-bottom: 4px solid #f57e57;
+  margin-bottom: 35px; }
+.grid .col-md-11 {
+  border-bottom: 4px solid white;
+  margin-bottom: 35px; }
+.grid .flex {
+  margin-top: 20px;
+  display: flex; }
+.grid .flex1 {
+  margin-top: 40px;
+  display: flex; }
+.grid .full {
+  flex: 1; }
+.grid .full1 {
+  flex: 2; }
+.grid span {
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 1px; }
+.grid .margin-right {
+  margin-right: 30px; }
+.grid .color {
+  padding: 32px;
+  background: #f1f3f9; }
+.grid .container-fluid .width {
+  margin: 0 75px; }
 
-.fa-quote-left {
-  font-size: 30px;
-  color: #18afd3; }
+.first_footer {
+  margin-top: 100px; }
+  .first_footer p, .first_footer h4 {
+    color: white; }
 
-.delete-pading p {
-  padding-bottom: 0px;
-  margin: 0px; }
-
-.padding {
-  padding-top: 60px; }
-
-.first_footer h4, .first_footer p {
-  color: white; }
-.first_footer p {
-  font-size: 14px; }
-
-/*# sourceMappingURL=typography.css.map */
+/*# sourceMappingURL=gridsass.css.map */

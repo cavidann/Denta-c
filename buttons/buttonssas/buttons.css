@@ -237,12 +237,22 @@ p {
 .pages, .galery, .blog {
   display: none; }
 
+pre {
+  font-size: 20px;
+  background: transparent;
+  border: 0px;
+  color: white; }
+  pre i {
+    font-size: 10px;
+    font-color: gray; }
+
 .daire {
   position: absolute;
   right: 10px;
   bottom: -500px; }
   .daire p {
-    height: 44px;
+    padding-top: 1px;
+    height: 41px;
     width: 44px;
     text-align: center;
     font-size: 25px;

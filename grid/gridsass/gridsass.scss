@@ -3,6 +3,27 @@ $orange:#f57e57;
 $btn_orange: orangered;
 $menu_width:239px;
 
+     * {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Oswald', sans-serif;
+}
+p{
+  font-family: 'Lato', sans-serif;
+}
+ pre{
+        font-size: 20px;
+          background: transparent;
+          border: 0px;
+          color: white;
+          i{
+              font: {
+                  size: 10px;
+                  color: grey;                  
+              }
+          }
+      }
 .row:nth-child(1) {
   padding-top: 30px; }
   .row:nth-child(1) .navbar-brand {
@@ -199,7 +220,7 @@ i{
         }
       }
       
-  margin-top: 1000px; 
+
   // margin silinecek
   background: $blue;
       .col-md-2{
@@ -330,9 +351,11 @@ display: none;
       right: 10px;
       bottom: -500px;
       p{
-    width: 70px;
+        padding-top: 5px; 
+    height: 41px;
+    width: 44px;
     text-align: center;
-    font-size: 46px;
+    font-size: 25px;
      color: white;
         border-radius: 100%;
         background: $orange; 
@@ -519,3 +542,101 @@ display: block;
           }
       }
   }
+   h1{
+    font: {
+      size:80px;
+    }
+    line-height: 100px;
+    letter-spacing: 3px;
+  }
+  h2{
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 1px;
+  }
+  h3{
+    font-size:46px;
+    line-height: 51px;
+    letter-spacing: 1; 
+  margin-top: 97px;
+    margin-bottom: 28px;
+  }
+  h4{
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0px; 
+  }
+  h5{
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0px;
+  }
+  h6{
+font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 1px;
+  }
+  h1, h2, h3, h4, h5, h6{
+   color: #434445;
+  }
+  p{
+    color:#868686;
+    font-size:15px;
+    line-height: 24px;
+    letter-spacing: 0px;
+  }
+
+
+  .grid{
+        .col-md-1{
+         border-bottom: 4px solid $orange; 
+         margin-bottom: 35px;
+      }
+     .col-md-11{
+        border-bottom: 4px solid white ;
+         margin-bottom: 35px; 
+     }  
+     
+.flex{
+    margin-top:20px;
+    display: flex;
+}
+.flex1{
+    margin-top:40px;
+    display: flex;
+}
+
+.full{
+    flex: 1;
+    
+}
+.full1{
+  flex: 2;
+  
+}
+span{
+      font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 1px;  
+
+    }
+.margin-right{
+    margin-right: 30px;
+}
+.color{
+  padding: 32px;
+background: #f1f3f9;
+}
+.container-fluid{
+  .width{
+ margin: 0 75px;
+  }
+ 
+}
+  }
+.first_footer{
+  p, h4{
+    color: white;
+  }
+margin-top:100px;
+}
