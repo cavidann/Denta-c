@@ -12,23 +12,23 @@ $(document).ready(function () {
     //     console.log("A")
     // })
 
-   $("#calendar").fullCalendar({
-       header: {
-           left: "prev",
-           center: "title",
-           right: "next"
-       }
-   });
+    $("#calendar").fullCalendar({
+        header: {
+            left: "prev",
+            center: "title",
+            right: "next"
+        }
+    });
     var i = 1;
     $(".fornumber").click(function () {
-        
-        if (i == 1){
+
+        if (i == 1) {
             $(".kvadrat").css({
                 "display": "block"
             })
             i = 0;
-        }else{
-             $(".kvadrat").css({
+        } else {
+            $(".kvadrat").css({
                 "display": "none"
             })
             i = 1;
@@ -91,4 +91,9 @@ $(document).ready(function () {
         }
 
     });
+      $('.daire').click(function(){
+       $('html, body').animate({ scrollTop: 0 }, "slow")
+       return false;
+   })
+
 });

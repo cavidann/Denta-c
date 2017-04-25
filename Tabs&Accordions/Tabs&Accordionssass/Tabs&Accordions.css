@@ -503,4 +503,15 @@ pre {
   border-bottom: 1px solid #eee;
   padding-bottom: 15px; }
 
+a {
+  color: #f57e57; }
+  a:hover {
+    color: #f57e57; }
+
+div.tabbable-line ul {
+  float: left; }
+
+.clearfix {
+  clear: both; }
+
 /*# sourceMappingURL=Tabs&Accordions.css.map */

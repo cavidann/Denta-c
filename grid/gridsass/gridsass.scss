@@ -640,3 +640,33 @@ background: #f1f3f9;
   }
 margin-top:100px;
 }
+@media screen and (max-width: 1148px) {
+.grid .color{
+  padding: 1%;
+}
+}
+@media screen and (max-width: 950px) {
+    .full, .full1{
+      height: 110px;
+      overflow: hidden;
+    }
+}
+@media screen and (max-width: 738px){
+  .grid .color{
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 688px){
+  .container-fluid{
+  .width{
+ margin: 0 0px !important;
+  }
+ 
+}
+}
+a{
+  color: $orange;
+  &:hover{
+    color: $orange;
+  }
+}

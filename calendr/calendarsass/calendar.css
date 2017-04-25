@@ -429,6 +429,9 @@ pre {
 .calendar p {
   color: #868686; }
 
+* {
+  box-sizing: border-box !important; }
+
 .fc .fc-toolbar > * > :first-child {
   background: transparent;
   border: 0px;
@@ -436,16 +439,18 @@ pre {
   position: static;
   bottom: 0px !important;
   padding: 0px !important;
-  margin: 0px !important;
-  background: #f57e57; }
+  color: #f57e57; }
   .fc .fc-toolbar > * > :first-child:focus {
     outline: 0; }
   .fc .fc-toolbar > * > :first-child h2 {
     background: transparent; }
 
 .fc {
-  width: 1170px !important;
-  border: 1px solid; }
+  margin-left: 5%;
+  width: 140% !important;
+  box-sizing: border-box !important; }
+  .fc button {
+    height: 5.1em; }
 
 .footer p, .footer h4 {
   color: white; }
@@ -453,4 +458,126 @@ pre {
 .fc-center {
   color: black; }
 
-/*# sourceMappingURL=tables.css.map */
+div.fc-toolbar.fc-header-toolbar {
+  width: 30%;
+  float: none;
+  margin-left: 35%; }
+
+button.fc-prev-button.fc-button.fc-state-default.fc-corner-right {
+  font-size: 22px; }
+
+button.fc-next-button.fc-button.fc-state-default.fc-corner-right {
+  font-size: 22px; }
+
+div.fc-center h2 {
+  color: black !important;
+  margin-top: 10% !important; }
+
+.fc-unthemed td.fc-today {
+  background: transparent; }
+  .fc-unthemed td.fc-today span.fc-day-number {
+    border: 1px solid #18afd3;
+    box-sizing: border-box !important;
+    border-radius: 100%;
+    margin-left: 6px;
+    margin-top: 4px;
+    text-align: center; }
+
+.fc td {
+  border-collapse: separate !important;
+  border-spacing: 20px !important;
+  border: 1px solid #18afd3;
+  box-sizing: border-box !important; }
+
+.fc th {
+  border: 0px; }
+
+span.fc-day-number {
+  float: left !important;
+  font-size: 26px !important;
+  padding: 3px 11px !important; }
+
+table {
+  border-collapse: separate !important;
+  border-spacing: 10px 10px !important; }
+
+td {
+  border-radius: 10px !important; }
+
+td.fc-head-container.fc-widget-header {
+  border: 0px; }
+
+.fc-day-top.fc-other-month {
+  opacity: 1; }
+
+.fc-day-top {
+  padding-bottom: 65px !important; }
+
+@media screen and (max-width: 1203px) {
+  .fc-day-top {
+    padding-bottom: 45px !important; } }
+@media screen and (max-width: 992px) {
+  .fc-day-top {
+    padding-bottom: 25px !important; } }
+@media screen and (max-width: 631px) {
+  .fc-day-top {
+    padding-bottom: 5px !important; }
+
+  span.fc-day-number {
+    font-size: 10px !important; }
+
+  span.fc-day-number {
+    padding: 3px 3px !important; } }
+@media screen and (max-width: 435px) {
+  .fc-day-top {
+    padding-bottom: 0px !important; }
+
+  span.fc-day-number {
+    padding: 2px !important;
+    font-size: 9px !important; } }
+@media screen and (max-width: 378px) {
+  .fc-day-top {
+    padding-bottom: 0px !important; }
+
+  span.fc-day-number {
+    padding: 0px !important;
+    margin: 1px !important;
+    font-size: 9px !important; } }
+h1.col-md-12:after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  background-color: #18afd3;
+  width: 70px;
+  margin-left: 15px;
+  bottom: -10px;
+  left: 46%; }
+
+h1.col-md-12 {
+  margin-bottom: 10%; }
+
+h6 {
+  color: #868686;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 2px solid transparent; }
+  h6:hover {
+    border-bottom: 2px solid #f57e57; }
+
+.col-md-12 .col-md-11 {
+  position: absolute;
+  top: -11px; }
+
+@media screen and (max-width: 580px) {
+  h6 {
+    font-size: 13px !important; } }
+@media screen and (max-width: 466px) {
+  .media_for .col-md-2, .media_for .col-xs-2, .media_for .col-sm-2 {
+    width: 100%; } }
+a {
+  color: #f57e57; }
+  a:hover {
+    color: #f57e57; }
+
+/*# sourceMappingURL=calendar.css.map */

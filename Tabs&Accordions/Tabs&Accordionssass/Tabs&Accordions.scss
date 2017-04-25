@@ -693,3 +693,15 @@ font-size: 18px;
   border-bottom: 1px solid #eee;
   padding-bottom: 15px;
 }
+a{
+  color: $orange;
+  &:hover{
+    color: $orange;
+  }
+}
+div.tabbable-line ul{
+  float: left;
+}
+.clearfix{
+  clear: both;
+}

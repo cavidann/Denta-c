@@ -636,7 +636,7 @@ font-size: 18px;
      color: #868686; 
         }
         .fa{
-      padding: 10px;
+      padding: 23%;
       width: 40px;
       height: 40px;
        border: 1px;
@@ -662,7 +662,7 @@ input.newsletter.col-md-12.col-xs-12{
     // padding-bottom: 11px;
     margin-top: 0px;
     position: absolute;
-    right: 16px;
+    right: 0px;
 }
    input.col-md-12{
       padding: 13px;
@@ -683,5 +683,119 @@ input.newsletter.col-md-12.col-xs-12{
     margin-top: 110px; 
   p,h4{
     color: white;
+  }
+}
+.form-control{
+  padding: 23px;
+}
+.validation {
+  position: relative;
+}
+
+
+
+/*Show red border if kept the input empty after touching*/
+.ng-touched.ng-invalid-required {
+	border-color: red;
+}
+/* Show red border when stuff has been typed in, but its invalid */
+.ng-dirty.ng-invalid {
+  border-color: red;
+}
+/*Show normal border color when typed in for the first time*/
+.ng-untouched.ng-invalid {
+	border-color: #ccc;	
+}
+.ng-submitted input.ng-invalid{
+  border-color: red;
+}
+#inputEmail{
+  padding: 23px;
+  &:focus{
+outline: 0;
+box-shadow: none;
+  }
+}
+button.btn.btn-default{
+  &:focus{
+    outline: 0;
+  }
+}
+@media screen and (max-width:768px){
+  .one_input{
+    position: relative;
+  }
+  .one_form{
+    position: absolute;
+    top: 165px;
+    left: 40px;
+    z-index: 100;
+  }
+    .two_input{
+    position: relative;
+  }
+  .two_form{
+    position: absolute;
+    top: 226px;
+    left: 40px;
+    z-index: 100;
+  }
+    .three_input{
+    position: relative;
+  }
+  .three_form{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    z-index: 100;
+  }
+    .four_input{
+    position: relative;
+  }
+  .four_form{
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    z-index: 100;
+  }
+   .five_input{
+    position: relative;
+  }
+  .five_form{
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    z-index: 100;
+  }
+     .six_input{
+    position: relative;
+  }
+  .six_form{
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    z-index: 100;
+  }
+       .seven_murad{
+    position: relative;
+  }
+  .seven_gonul{
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    z-index: 100;
+  }
+}
+@media screen and (max-width:768px){
+  .icons1{
+   margin-left:34%; 
+  }
+  .ortala{
+   margin-left:182%; 
+  }
+}a{
+  color: $orange;
+  &:hover{
+    color: $orange
   }
 }
