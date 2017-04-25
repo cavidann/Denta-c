@@ -670,3 +670,12 @@ a{
     color: $orange;
   }
 }
+@media screen and (max-width:504px){
+  .margin-right{
+      margin-right:10px !important;
+  }
+}
+a{
+     padding: 18px!important;
+  margin: 0px !important;
+}

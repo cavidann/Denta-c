@@ -54,7 +54,7 @@
             <div class="row">
                 <div class=" menu centered">
                     <ul class="nav nav-pills">
-                        <li role="presentation"><a href=""><b>HOME</b></a></li>
+                        <li role="presentation"><a href="../home/index.html"><b>HOME</b></a></li>
                         <li role="presentation"><a href=""><b>ABOUT</b></a></li>
                         <li role="presentation"><a href=""><b>TEAM</b></a></li>
                         <li role="presentation" class="dropdown"><a href="#"><b>                       
@@ -105,7 +105,7 @@
                                         <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Search Resault</a>
                                         <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>404 Page</a>
                                         <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>503 Page</a>
-                                  <a href="../calendr/calendarindex.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Make An Appointment</a>
+                                        <a href="../calendr/calendarindex.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Make An Appointment</a>
                                     </div>
                                 </div>
                                 <!--</div>-->
@@ -175,7 +175,7 @@
         <ul>
             <li> <img src="../images/logo-dark.png"></li>
             <li class="search"><input type="text" placeholder="Search"><i class="fa fa-search" aria-hidden="true"></i></li>
-            <li><a href=""><b>HOME</b></a></li>
+            <li><a href="../home/index.html"><b>HOME</b></a></li>
             <li><a href=""><b>ABOUT</b></a></li>
             <li><a href=""><b>TEAM</b></a></li>
             <li class="dropdown_pages"><b>PAGES<i class="fa fa-angle-down pull-right" aria-hidden="true"></i></t>
@@ -302,8 +302,8 @@
                                 <form class="create-login clearfix" name="createLogin" novalidate>
                                     <div class="form-group validation">
                                         <p class="col-md-6 col-sm-6 col-xs-6 five_form">E-mail</p>
-                                        <input type="email" class="form-control col-md-12 col-sm-12 col-xs-12 form_input" id="inputEmail" value="" name="inputEmail" ng-model="email"
-                                            required>
+                                        <input type="email" class="form-control col-md-12 col-sm-12 col-xs-12 form_input" id="inputEmail" value="" name="inputEmail"
+                                            ng-model="email" required>
 
                                         <div ng-show="(createLogin.$submitted && createLogin.inputEmail.$invalid) || (createLogin.inputEmail.$touched && createLogin.inputEmail.$invalid)">
                                             <!--<p ng-show="createLogin.inputEmail.$error.required">This field is required</p>-->
@@ -339,8 +339,9 @@
 </div>
 <div class="col-md-6 col-sm-8 col-xs-10">
     <h6 class="col-md-12 col-sm-12 col-xs-12">NEWSLETTER</h6>
+
     <div class="col-md-1 col-sm-1 col-xs-1"></div>
-    <div class="col-md-11 col-sm-11 col-xs-11"></div>
+    <div class="col-md-11 col-sm-11 col-xs-10"></div>
     <div class="clear_fix"></div>
     <p>Enter your email address to receive up-to-date news, new patient information and other useful stuff, delivered right
         to your inbox.</p>
@@ -367,9 +368,11 @@
                 <div class="col-md-offset-0 col-md-12 col-xs-offset-3 col-xs-7 col-lg-offset-3">
                     <div class="col-md-4 col-xs-12 pull-right">
                         <h4><b>NEWSLETTER</b></h4>
-                        <div class="col-md-2 col-xs-2"></div>
-                        <div class="col-md-10 col-xs-10"></div>
-                        <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-2 col-xs-2"></div>
+                            <div class="col-md-10 col-xs-9"></div>
+                        </div>
+                        <div class="col-md-12col-sm-12 col-xs-12">
                             <p>Enter your email address to receive up-to-date news and new patient information.</p>
                             <input class="col-md-8 col-xs-8" type="E-mail" placeholder="Your e-mail...">
                             <div class="btn btn-warning col-md-4 ">SUBSCRIBE</div>
@@ -379,8 +382,11 @@
 
                     <div class="col-md-4 col-xs-12 pull-right">
                         <h4><b>CONTACT US</b></h4>
-                        <div class="col-md-2 col-xs-2"></div>
-                        <div class="col-md-10 col-xs-10"></div>
+                        <div class="row">
+                            <div class="col-md-2 col-xs-2"></div>
+                            <div class="col-md-10 col-xs-9"></div>
+                        </div>
+
                         <span></span>
                         <div class="logotext">
                             <i class="fa fa-phone" aria-hidden="true"></i>
@@ -398,7 +404,7 @@
                     </div>
                     <div class="col-md-4 col-xs-12 pull-right">
                         <a class="navbar-brand col-md-5" href="#">
-                            <img src="../images/logo-desc-white.png">
+                            <img class="img-responsive" src="../images/logo-desc-white.png">
                         </a>
                         <div class="col-md-12 icons">
                             <p><i class="fa fa-facebook" aria-hidden="true"></i></p>

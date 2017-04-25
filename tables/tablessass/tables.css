@@ -515,4 +515,8 @@ a {
   a:hover {
     color: #f57e57; }
 
+a {
+  padding: 18px !important;
+  margin: 0px !important; }
+
 /*# sourceMappingURL=tables.css.map */

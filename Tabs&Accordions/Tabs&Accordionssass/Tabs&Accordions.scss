@@ -701,7 +701,151 @@ a{
 }
 div.tabbable-line ul{
   float: left;
+  a{
+    padding: 10px; 
+  }
+}
+li, a:hover{
+  border-bottom:0px !important; 
+}
+.second> .tabbable-line> .nav-tabs > li.active {
+    border-bottom: 0px;
+  border-right: 2px solid $orange;  
 }
 .clearfix{
   clear: both;
+}
+#accordion section, #accordion .pointer, #accordion h1, #accordion p {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+#accordion {
+        width: 600;
+  margin-bottom:30px;
+}
+#accordion h1 {
+  line-height:1.2;
+  font-size:20px;
+ 
+  margin:0;
+  padding: 10px 10px 10px 30px;
+      border: 1px solid #c5c5c5;
+    background: #f6f6f6;
+    
+    color: #454545;
+}
+
+#accordion h1 a {
+  color:black;
+}
+#accordion section {
+  overflow:hidden;
+  height:220px;
+  border:1px #333 solid;
+}
+#accordion p {
+  padding:0 10px;
+  color:black;
+}
+#accordion section.ac_hidden p:not(.pointer) {
+  color:#fff;
+}
+
+#accordion section.ac_hidden {
+    
+  height:44px;
+}
+#accordion .pointer {
+  padding:0;
+  margin:10px 0 0 6px;
+  line-height:20px;
+  width:13px;
+  position:absolute;
+  right: 40px;
+}
+#accordion section:not(.ac_hidden) h1 {
+     border: 1px solid #003eff;
+    background: #007fff;
+}
+
+#accordion section:not(.ac_hidden) .pointer {
+  display:block;
+  -webkit-transform:rotate(45deg);
+  -moz-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+  transform:rotate(45deg);
+  padding:0;
+  float: right;
+}
+
+
+
+#accordion1 section, #accordion1 .pointer, #accordion1 h1, #accordion1 p {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+#accordion1 {
+        width: 600;
+  margin-bottom:30px;
+}
+#accordion1 h1 {
+  line-height:1.2;
+  font-size:20px;
+ 
+  margin:0;
+  padding: 10px 10px 10px 30px;
+      border: 1px solid #c5c5c5;
+    background: #f6f6f6;
+    
+    color: #454545;
+}
+
+#accordion1 h1 a {
+  color:black;
+}
+#accordion1 section {
+  overflow:hidden;
+  height:220px;
+  border:1px #333 solid;
+}
+#accordion1 p {
+  padding:0 10px;
+  color:black;
+}
+#accordion1 section.ac_hidden p:not(.pointer1) {
+  color:#fff;
+}
+
+#accordion1 section.ac_hidden {
+    
+  height:44px;
+}
+#accordion1 .pointer1 {
+  padding:0;
+  margin:10px 0 0 6px;
+  line-height:20px;
+  width:13px;
+  position:absolute;
+}
+#accordion1 section:not(.ac_hidden) h1 {
+     border: 1px solid #003eff;
+    background: #007fff;
+}
+
+#accordion1 section:not(.ac_hidden) .pointer1 {
+  display:block;
+  -webkit-transform:rotate(45deg);
+  -moz-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+  transform:rotate(45deg);
+  padding:0;
+  float: right;
+}
+a{
+     padding: 18px!important;
+  margin: 0px !important;
 }

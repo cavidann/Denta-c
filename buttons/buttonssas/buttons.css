@@ -491,4 +491,12 @@ a {
   a:hover {
     color: #f57e57; }
 
-/*# sourceMappingURL=buttons.css.map */
+div.btn.btn-warning.col-md-4 {
+  margin: 0px !important; }
+
+.row {
+  margin-right: 0px !important; }
+
+a {
+  padding: 18px !important;
+  margin: 0px !important; }

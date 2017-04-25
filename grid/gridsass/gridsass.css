@@ -486,4 +486,11 @@ a {
   a:hover {
     color: #f57e57; }
 
+@media screen and (max-width: 504px) {
+  .margin-right {
+    margin-right: 10px !important; } }
+a {
+  padding: 18px !important;
+  margin: 0px !important; }
+
 /*# sourceMappingURL=gridsass.css.map */
