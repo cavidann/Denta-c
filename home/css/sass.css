@@ -536,8 +536,9 @@
   .news .margin .pros .btn-group {
     margin-top: 20px; }
     .news .margin .pros .btn-group button {
-      margin-right: 10px;
-      border-radius: 5px; }
+      margin-right: 7px;
+      border-radius: 5px;
+      margin-bottom: 10px; }
       .news .margin .pros .btn-group button:hover {
         color: white;
         background-color: #18afd3;
@@ -768,7 +769,8 @@ pre {
 .daire {
   position: absolute;
   right: 10px;
-  bottom: -500px; }
+  bottom: -500px;
+  z-index: 1000px; }
   .daire p {
     padding-top: 1px;
     height: 41px;
@@ -905,5 +907,31 @@ a {
 a {
   padding: 18px !important;
   margin: 0px !important; }
+
+@media screen and (max-width: 486px) {
+  .input-group {
+    background: red;
+    width: 80% !important;
+    left: 8% !important; }
+
+  .login {
+    margin-left: 23px !important; }
+
+  .btnblog {
+    margin-left: 10px !important; }
+
+  .care {
+    left: -9px !important;
+    padding-right: 0px !important;
+    width: 250px !important; }
+
+  .workbutton h4 {
+    font-size: 15px !important; }
+
+  .container {
+    margin: 0px !important; }
+
+  h1 {
+    font-size: 24px !important; } }
 
 /*# sourceMappingURL=sass.css.map */

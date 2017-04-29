@@ -13,24 +13,6 @@ $(document).ready(function() {
       $('.headp').html(ary_headp[x]);
    })
 
-
-
-   $('.menutab').click(function(){
-       $('.menu').animate({left: '0'}, "slow");
-   })
-
-     $('.sidebar').click(function(){
-       $('.menu').animate({left: '-400'}, "slow");
-   })
-
-   $('.fa-times').click(function(){
-       $('.menu').animate({left: '-400'}, "slow");
-   })
-
-
-
-
-
    $('#workbutton1 h4').mouseover(function(){
        $('#figur1').animate({left: '0'},'100')
    })

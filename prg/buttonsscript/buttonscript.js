@@ -83,50 +83,17 @@ $(document).ready(function () {
             });
 
         }
+
+    });
        $('.daire').click(function(){
        $('html, body').animate({ scrollTop: 0 }, "slow")
        return false;
    })
-    });
-    // accardion
-    $(document).ready(function() {
-  $("#accordion section h1").click(function(e) {
-    $(this).parents().siblings("section").addClass("ac_hidden");
-    $(this).parents("section").removeClass("ac_hidden");
-
-    e.preventDefault();
-  });
-});
-  $(document).ready(function() {
-  $("#accordion1 section h1").click(function(e) {
-    $(this).parents().siblings("section").addClass("ac_hidden");
-    $(this).parents("section").removeClass("ac_hidden");
-
-    e.preventDefault();
-  });
-});
-var accordion = document.querySelector('.item');
-var b=document.getElementById("b");
-
-$(".head").click(function(){
     
-      // $(".body").toggle();
-        $(this).find("i").toggleClass("fa-minus");
-    var item = event.target;
-    var parent = item.parentNode.parentNode;
-item.nextElementSibling.style.transition = "all 0.5s";
-    if (item.nextElementSibling.style.maxHeight) {
-        item.nextElementSibling.style.maxHeight =null;   
-        
-    } else {
-         for (var i = 0; i < parent.childElementCount; i++) {
-            parent.children[i].children[1].style.maxHeight = null; 
-             $(".head").not($(this)).find("i").removeClass("fa-minus").addClass("fa-plus");    
-        }
-          
-                $(".fa-minus").css({"display":"inline-block"})
-        item.nextElementSibling.style.maxHeight = 200+"px";
-    }
- 
 });
-});
+ jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });

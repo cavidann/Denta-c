@@ -685,8 +685,9 @@ $color4:#f57e57;
         .btn-group{
             margin-top: 20px;
         button{
-            margin-right: 10px;
+            margin-right: 7px;
             border-radius: 5px;
+            margin-bottom: 10px; 
             &:hover{
                 color: $color1;
                 background-color: $color3;
@@ -1016,6 +1017,7 @@ display: block;
       position: absolute;
       right: 10px;
       bottom: -500px;
+      z-index: 1000px;
       p{
         padding-top: 1px; 
     height: 41px;
@@ -1209,4 +1211,40 @@ input{
 a{
      padding: 18px!important;
   margin: 0px !important;
+}
+
+@media screen and (max-width:486px){
+.input-group{
+    background: red;
+    width: 80% !important;
+    left: 8% !important;
+    
+}
+.login{
+margin-left: 23px !important;  
+}
+.btnblog{
+    margin-left: 10px !important;
+}
+.care{
+    left: -9px !important;
+    padding-right:0px !important; 
+    width: 250px !important;
+}
+
+.workbutton{
+   h4{
+        font-size: 15px !important;
+    }
+}
+.container{
+    margin: 0px !important;
+}
+h1{
+    font-size: 24px !important; 
+}
+
+}
+@media screen and (max-width:326px){
+  
 }

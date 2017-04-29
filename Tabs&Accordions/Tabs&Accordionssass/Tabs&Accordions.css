@@ -428,8 +428,10 @@ pre {
 .tabs_accordions p {
   color: #868686; }
 
-.footer p, .footer h4 {
-  color: white; }
+.footer {
+  margin-top: 100px; }
+  .footer p, .footer h4 {
+    color: white; }
 
 .tabbable-line > .nav-tabs {
   border: none;
@@ -443,25 +445,16 @@ pre {
   margin-right: 0;
   color: #737373; }
 
-.tabbable-line > .nav-tabs > li > a > i {
-  color: #a6a6a6; }
-
-.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
-  border-bottom: 4px solid #fbcdcf; }
-
 .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
   border: 0;
   background: none !important;
   color: #333333; }
 
-.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
-  color: #a6a6a6; }
-
 .tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
   margin-top: 0px; }
 
 .tabbable-line > .nav-tabs > li.active {
-  border-bottom: 4px solid #f3565d;
+  border-bottom: 1px solid #f3565d;
   position: relative; }
 
 .tabbable-line > .nav-tabs > li.active > a {
@@ -472,7 +465,7 @@ pre {
   color: #404040; }
 
 .tabbable-line > .tab-content {
-  margin-top: -3px;
+  margin-top: 0px;
   background-color: #fff;
   border: 0;
   border-top: 1px solid #eee;
@@ -482,164 +475,100 @@ pre {
   padding-bottom: 0; }
 
 /* Below tabs mode */
-.tabbable-line.tabs-below > .nav-tabs > li {
-  border-top: 4px solid transparent; }
-
-.tabbable-line.tabs-below > .nav-tabs > li > a {
-  margin-top: 0; }
-
-.tabbable-line.tabs-below > .nav-tabs > li:hover {
-  border-bottom: 0;
-  border-top: 4px solid #fbcdcf; }
-
-.tabbable-line.tabs-below > .nav-tabs > li.active {
-  margin-bottom: -2px;
-  border-bottom: 0;
-  border-top: 4px solid #f3565d; }
-
-.tabbable-line.tabs-below > .tab-content {
-  margin-top: -10px;
-  border-top: 0;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 15px; }
-
 a {
   color: #f57e57; }
   a:hover {
     color: #f57e57; }
 
 div.tabbable-line ul {
-  float: left; }
+  float: left;
+  border-bottom: 0px; }
   div.tabbable-line ul a {
     padding: 10px; }
-
-li, a:hover {
-  border-bottom: 0px !important; }
 
 .second > .tabbable-line > .nav-tabs > li.active {
   border-bottom: 0px;
   border-right: 2px solid #f57e57; }
 
+.second ul li {
+  border-right: 2px solid #eee; }
+
 .clearfix {
   clear: both; }
 
-#accordion section, #accordion .pointer, #accordion h1, #accordion p {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out; }
-
-#accordion {
-  width: 600;
-  margin-bottom: 30px; }
-
-#accordion h1 {
-  line-height: 1.2;
-  font-size: 20px;
-  margin: 0;
-  padding: 10px 10px 10px 30px;
-  border: 1px solid #c5c5c5;
-  background: #f6f6f6;
-  color: #454545; }
-
-#accordion h1 a {
-  color: black; }
-
-#accordion section {
-  overflow: hidden;
-  height: 220px;
-  border: 1px #333 solid; }
-
-#accordion p {
-  padding: 0 10px;
-  color: black; }
-
-#accordion section.ac_hidden p:not(.pointer) {
-  color: #fff; }
-
-#accordion section.ac_hidden {
-  height: 44px; }
-
-#accordion .pointer {
-  padding: 0;
-  margin: 10px 0 0 6px;
-  line-height: 20px;
-  width: 13px;
-  position: absolute;
-  right: 40px; }
-
-#accordion section:not(.ac_hidden) h1 {
-  border: 1px solid #003eff;
-  background: #007fff; }
-
-#accordion section:not(.ac_hidden) .pointer {
-  display: block;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-  padding: 0;
-  float: right; }
-
-#accordion1 section, #accordion1 .pointer, #accordion1 h1, #accordion1 p {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out; }
-
-#accordion1 {
-  width: 600;
-  margin-bottom: 30px; }
-
-#accordion1 h1 {
-  line-height: 1.2;
-  font-size: 20px;
-  margin: 0;
-  padding: 10px 10px 10px 30px;
-  border: 1px solid #c5c5c5;
-  background: #f6f6f6;
-  color: #454545; }
-
-#accordion1 h1 a {
-  color: black; }
-
-#accordion1 section {
-  overflow: hidden;
-  height: 220px;
-  border: 1px #333 solid; }
-
-#accordion1 p {
-  padding: 0 10px;
-  color: black; }
-
-#accordion1 section.ac_hidden p:not(.pointer1) {
-  color: #fff; }
-
-#accordion1 section.ac_hidden {
-  height: 44px; }
-
-#accordion1 .pointer1 {
-  padding: 0;
-  margin: 10px 0 0 6px;
-  line-height: 20px;
-  width: 13px;
-  position: absolute; }
-
-#accordion1 section:not(.ac_hidden) h1 {
-  border: 1px solid #003eff;
-  background: #007fff; }
-
-#accordion1 section:not(.ac_hidden) .pointer1 {
-  display: block;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-  padding: 0;
-  float: right; }
+.second {
+  margin-top: 20px; }
 
 a {
   padding: 18px !important;
   margin: 0px !important; }
+
+.accordion, .accordion1 {
+  margin-left: 25px;
+  margin-top: 25px; }
+
+.accordion .item {
+  margin-bottom: 5px; }
+
+.accordion1 .item {
+  margin-bottom: 5px; }
+
+.accordion .head {
+  font-size: 16px;
+  line-height: 150%;
+  padding: 10px 0.75rem;
+  cursor: pointer; }
+
+.accordion1 .head {
+  font-size: 16px;
+  line-height: 150%;
+  padding: 10px 0.75rem;
+  cursor: pointer; }
+
+.accordion .body {
+  max-height: 0;
+  overflow: hidden; }
+
+.accordion1 .body {
+  max-height: 0;
+  overflow: hidden; }
+
+.fa-minus {
+  float: right;
+  display: none; }
+
+.fa-plus {
+  float: right;
+  display: inline-block; }
+
+.accordion1 {
+  color: white;
+  background: #18afd3; }
+  .accordion1 i {
+    padding: 2px 10px; }
+  .accordion1 .fa-minus {
+    float: left; }
+  .accordion1 .fa-plus {
+    float: left; }
+
+ul.nav.nav-tabs {
+  margin-top: 2px; }
+
+.accordion .item {
+  border-bottom: 1px solid #eee; }
+.accordion .item:nth-child(1) {
+  border-top: 1px  solid #eee; }
+
+.line {
+  border-top: 4px solid #18afd3;
+  width: 80px;
+  height: 3px;
+  margin: 10px 0; }
+
+.line1 {
+  border-top: 4px solid #f57e57;
+  width: 80px;
+  height: 3px;
+  margin: 10px 0; }
 
 /*# sourceMappingURL=Tabs&Accordions.css.map */
