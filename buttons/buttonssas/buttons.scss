@@ -9,6 +9,9 @@ h1, h2, h3, h4, h5, h6{
 p{
   font-family: 'Lato', sans-serif;
 }
+.menu .nav-pills li a{
+  padding: 18px !important;
+}
 .row:nth-child(1) {
   padding-top: 30px; }
   .row:nth-child(1) .navbar-brand {
@@ -205,7 +208,7 @@ i{
         }
       }
       
-
+ 
   // margin silinecek
   background: $blue;
       .col-md-2{
@@ -229,23 +232,26 @@ i{
 
 }
 input{
-  padding: 10px;
+  padding: 11px;
     border: 1px solid $btn_orange;
         border-radius: 3px; 
     margin-top: 3px;
     position: relative;
 }
 .btn-warning{
-  padding-top: 11px;
+  padding-top: 12px;
   padding-bottom: 11px;
     margin-top: 3px;
     position: absolute;
     right: 4px;
+    top:54px;
     background: $btn_orange;
     border-color: $btn_orange; 
 
 }
 }     
+
+    
 
 
 
@@ -432,6 +438,11 @@ z-index: 200;
       }
 
   }
+  .navbar-brand{
+  .img-responsive{
+        margin-left: 130%;
+  }
+}
   .menu{
      display: none;
    }
@@ -460,6 +471,7 @@ display: block;
 .navbar-brand{
   display: none;
 }
+
 }
 @media (min-width: 992px) {
   .navbar-brand{
@@ -675,6 +687,16 @@ div.btn.btn-warning.col-md-4{
   margin-right: 0px !important;
 }
 a{
-     padding: 18px!important;
+    //  padding: 18px!important;
   margin: 0px !important;
+}
+@media (max-width: 1200px){
+.menu .nav-pills li a {
+    padding: 20px 9px !important;
+}
+}
+.footer{
+  .col-md-4{
+    float: right;  
+  }
 }

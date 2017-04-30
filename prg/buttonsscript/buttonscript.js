@@ -97,3 +97,7 @@ $(document).ready(function () {
                 time: 1000
             });
         });
+          $(document).ready(function () {
+        $(".skills").skill();
+        $(".progress-bar").loading();
+    });

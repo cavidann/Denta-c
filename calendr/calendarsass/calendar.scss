@@ -712,6 +712,11 @@ td.fc-head-container.fc-widget-header{
   .fc-day-top{
    padding-bottom: 25px !important;
 }
+.header .navbar-brand{
+ .img-responsive{
+        margin-left: 130% !important;
+  }
+}
 }
 @media screen and (max-width:631px){
   .fc-day-top{
@@ -807,9 +812,51 @@ a{
   }
 }
 a{
-     padding: 18px!important;
+    //  padding: 18px!important;
   margin: 0px !important;
 }
 .row{
   margin-right: 0px !important;
+}
+@media (max-width: 1200px){
+.menu .nav-pills li a {
+    padding: 20px 9px !important;
+}
+}
+.fc-scroller.fc-day-grid-container{
+  overflow-x:hidden !important;
+  height: 860px !important 
+}
+@media screen and (max-width:1201px){
+  .fc-scroller.fc-day-grid-container{
+
+  height: 750px !important; 
+}
+} 
+@media screen and (max-width:991px){
+  .fc-scroller.fc-day-grid-container{
+
+  height: 620px !important; 
+}
+} 
+@media screen and (max-width:632px){
+  .fc-scroller.fc-day-grid-container{
+
+  height: 360px !important; 
+}
+} 
+@media screen and (max-width:432px){
+  .fc-scroller.fc-day-grid-container{
+
+  height: 340px !important; 
+}
+} 
+thead{
+  tr{
+    th{
+      span{
+        font-size: 10px; 
+      }
+    }
+  }
 }

@@ -435,6 +435,11 @@ z-index: 200;
       }
 
   }
+ .header .navbar-brand{
+ .img-responsive{
+        margin-left: 130% !important;
+  }
+}
   .menu{
      display: none;
    }
@@ -590,7 +595,7 @@ font-size: 18px;
   .grid{
         .col-md-1{
          border-bottom: 4px solid $orange; 
-         margin-bottom: 35px;
+        //  margin-bottom: 35px;
       }
      .col-md-11{
         border-bottom: 4px solid white ;
@@ -676,6 +681,6 @@ a{
   }
 }
 a{
-     padding: 18px!important;
+    //  padding: 18px!important;
   margin: 0px !important;
 }

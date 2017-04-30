@@ -431,6 +431,11 @@ z-index: 200;
       }
 
   }
+  .header .navbar-brand{
+ .img-responsive{
+        margin-left: 130% !important;
+  }
+}
   .menu{
      display: none;
    }
@@ -743,6 +748,6 @@ a{
   }
 }
 a{
-     padding: 18px!important;
+    //  padding: 18px!important;
   margin: 0px !important;
 }

@@ -317,6 +317,9 @@ pre {
   .fornumber span {
     display: block; }
 
+  .header .navbar-brand .img-responsive {
+    margin-left: 130% !important; }
+
   .menu {
     display: none; }
 
@@ -436,8 +439,7 @@ p {
   letter-spacing: 0px; }
 
 .grid .col-md-1 {
-  border-bottom: 4px solid #f57e57;
-  margin-bottom: 35px; }
+  border-bottom: 4px solid #f57e57; }
 .grid .col-md-11 {
   border-bottom: 4px solid white;
   margin-bottom: 35px; }
@@ -490,7 +492,6 @@ a {
   .margin-right {
     margin-right: 10px !important; } }
 a {
-  padding: 18px !important;
   margin: 0px !important; }
 
 /*# sourceMappingURL=gridsass.css.map */

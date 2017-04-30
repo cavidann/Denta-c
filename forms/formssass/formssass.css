@@ -314,6 +314,9 @@ pre {
   .fornumber span {
     display: block; }
 
+  .header .navbar-brand .img-responsive {
+    margin-left: 130% !important; }
+
   .menu {
     display: none; }
 
@@ -598,7 +601,6 @@ a {
     color: #f57e57; }
 
 a {
-  padding: 18px !important;
   margin: 0px !important; }
 
 /*# sourceMappingURL=formssass.css.map */

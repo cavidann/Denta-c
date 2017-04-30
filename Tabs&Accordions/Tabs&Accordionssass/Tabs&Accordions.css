@@ -314,6 +314,9 @@ pre {
   .fornumber span {
     display: block; }
 
+  .header .navbar-brand .img-responsive {
+    margin-left: 130% !important; }
+
   .menu {
     display: none; }
 
@@ -500,7 +503,6 @@ div.tabbable-line ul {
   margin-top: 20px; }
 
 a {
-  padding: 18px !important;
   margin: 0px !important; }
 
 .accordion, .accordion1 {
@@ -570,5 +572,9 @@ ul.nav.nav-tabs {
   width: 80px;
   height: 3px;
   margin: 10px 0; }
+
+@media screen and (max-width: 440px) {
+  h1 {
+    font-size: 24px !important; } }
 
 /*# sourceMappingURL=Tabs&Accordions.css.map */

@@ -4,6 +4,9 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-family: 'Lato', sans-serif; }
 
+.menu .nav-pills li a {
+  padding: 18px !important; }
+
 .row:nth-child(1) {
   padding-top: 30px; }
 
@@ -160,17 +163,18 @@ p {
     color: lightsteelblue;
     line-height: 25px; }
   .footer input {
-    padding: 10px;
+    padding: 11px;
     border: 1px solid orangered;
     border-radius: 3px;
     margin-top: 3px;
     position: relative; }
   .footer .btn-warning {
-    padding-top: 11px;
+    padding-top: 12px;
     padding-bottom: 11px;
     margin-top: 3px;
     position: absolute;
     right: 4px;
+    top: 54px;
     background: orangered;
     border-color: orangered; }
 
@@ -313,6 +317,9 @@ pre {
 @media (max-width: 992px) {
   .fornumber span {
     display: block; }
+
+  .navbar-brand .img-responsive {
+    margin-left: 130%; }
 
   .menu {
     display: none; }
@@ -498,7 +505,12 @@ div.btn.btn-warning.col-md-4 {
   margin-right: 0px !important; }
 
 a {
-  padding: 18px !important;
   margin: 0px !important; }
+
+@media (max-width: 1200px) {
+  .menu .nav-pills li a {
+    padding: 20px 9px !important; } }
+.footer .col-md-4 {
+  float: right; }
 
 /*# sourceMappingURL=buttons.css.map */

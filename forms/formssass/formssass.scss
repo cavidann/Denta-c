@@ -431,6 +431,11 @@ z-index: 200;
       }
 
   }
+ .header .navbar-brand{
+ .img-responsive{
+        margin-left: 130% !important;
+  }
+}
   .menu{
      display: none;
    }
@@ -459,6 +464,7 @@ display: block;
 .navbar-brand{
   display: none;
 }
+
 }
 @media (min-width: 992px) {
   .navbar-brand{
@@ -800,6 +806,6 @@ button.btn.btn-default{
   }
 }
 a{
-     padding: 18px!important;
+    //  padding: 18px!important;
   margin: 0px !important;
 }

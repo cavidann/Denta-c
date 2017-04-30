@@ -431,6 +431,11 @@ z-index: 200;
       }
 
   }
+  .header .navbar-brand{
+ .img-responsive{
+        margin-left: 130% !important;
+  }
+}
   .menu{
      display: none;
    }
@@ -707,7 +712,7 @@ div.tabbable-line ul{
 }
 
 a{
-     padding: 18px!important;
+    //  padding: 18px!important;
   margin: 0px !important;
 }
 
@@ -800,4 +805,9 @@ ul.nav.nav-tabs{
   width: 80px;
   height: 3px;
   margin: 10px 0;
+}
+@media screen and (max-width:440px){
+  h1{
+    font-size: 24px !important; 
+  }
 }
