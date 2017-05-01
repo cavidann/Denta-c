@@ -213,8 +213,10 @@ p {
   transition: left 0.5s linear;
   overflow: scroll;
   overflow-x: hidden; }
+  #sidebar.visible li img {
+    margin-top: 130px !important; }
 
-#sidebar-btn {
+.sidebar-btn {
   display: inline-block;
   vertical-align: middle;
   width: 20px;
@@ -224,13 +226,13 @@ p {
   top: 10px;
   left: 10px;
   transition: left 0.5s linear; }
-  #sidebar-btn span {
+  .sidebar-btn span {
     height: 2px;
     background: #111;
     margin-bottom: 5px;
     display: none; }
 
-#sidebar-btn.visible1 {
+.sidebar-btn.visible1 {
   left: 239px;
   transition: left 0.5s linear; }
 
@@ -311,7 +313,7 @@ p {
   .menu {
     display: none; }
 
-  #sidebar-btn span {
+  .sidebar-btn span {
     display: block; }
 
   .header {
@@ -597,5 +599,31 @@ a {
 
 a {
   margin: 0px !important; }
+
+.first_menu ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: white; }
+.first_menu .input {
+  color: white !important;
+  display: none;
+  font-size: 30px; }
+  .first_menu .input input {
+    width: 95%;
+    padding: 8px;
+    font-size: 30px;
+    background: transparent;
+    color: white !important;
+    border: 0px; }
+    .first_menu .input input .fa-times {
+      display: none !important; }
+
+.fornumber .fa-times {
+  font-size: 30px; }
+.fornumber .fa-ellipsis-v {
+  font-size: 30px; }
+
+.fa-arrow-left {
+  display: none;
+  font-size: 24px; }
 
 /*# sourceMappingURL=typography.css.map */

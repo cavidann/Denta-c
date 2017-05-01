@@ -51,8 +51,12 @@
         <div class="container">
             <div class="row">
                 <div class=" menu centered">
+                    <div class="input">
+                        <input placeholder="TYPE AND HIT ENTER">
+                        <i class='fa fa-times'></i>
+                    </div>
                     <ul class="nav nav-pills">
-<li role="presentation"><a href="../home/index.html"><b>HOME</b></a></li>
+                        <li role="presentation"><a href="../home/index.html"><b>HOME</b></a></li>
                         <li role="presentation"><a href=""><b>ABOUT</b></a></li>
                         <li role="presentation"><a href=""><b>TEAM</b></a></li>
                         <li role="presentation" class="dropdown"><a href="#"><b>                       
@@ -103,7 +107,7 @@
                                         <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Search Resault</a>
                                         <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>404 Page</a>
                                         <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>503 Page</a>
-                                          <a href="../calendr/calendarindex.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Make An Appointment</a>
+                                        <a href="../calendr/calendarindex.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Make An Appointment</a>
                                     </div>
                                 </div>
                                 <!--</div>-->
@@ -151,10 +155,10 @@
             </div>
         </div>
     </div>
-    <div class="fornumber">
-        <span></span>
-        <span></span>
-        <span></span>
+     <div class="fornumber">
+        <div class="spans">
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+        </div>
     </div>
     <div class="kvadrat">
 
@@ -183,7 +187,7 @@
                 <a href="../buttons/buttons.html"><li><i class="fa fa-angle-right" aria-hidden="true"></i>Buttons</li></a>
                 <a href="../grid/gridindex.html"><li><i class="fa fa-angle-right" aria-hidden="true"></i>Grid</li></a>
                 <a href="../Tabs&Accordions/Tabs&Accordionsindex.html"><li><i class="fa fa-angle-right" aria-hidden="true"></i>Tabs & Accordions</li></a>
-                <a><li><i class="fa fa-angle-right" aria-hidden="true"></i>Progress Bars</li></a>
+                <a href="../prg/buttons.html"><li><i class="fa fa-angle-right" aria-hidden="true"></i>Progress Bars</li></a>
                 <a><li><i class="fa fa-angle-right" aria-hidden="true"></i>Icons</li></a>
                 <a href="../tables/tablesindex.html"><li><i class="fa fa-angle-right" aria-hidden="true"></i>Tables</li></a>
                 <a><li><i class="fa fa-angle-right" aria-hidden="true"></i>Team Member Profile</li></a>
@@ -206,7 +210,7 @@
             </li>
             <li><a href=""><b>SERVICES</b></a></li>
             <li><a href=""><b>DEPARTMENTS</b></a></li>
-            <li><a href=""><b>TIMETABLE</b></a></li>
+            <li><a href="../timetable/timetable.html"><b>TIMETABLE</b></a></li>
             <li class="dropdown_galery"><b>GALERY<i class="fa fa-angle-down  pull-right" aria-hidden="true"></i>
             
             <ul class="galery">
@@ -229,10 +233,11 @@
                     <li><a href=""><b>CONTACTS</b></a></li>
         </ul>
 
-        <div id="sidebar-btn">
+        <div class="sidebar-btn">
             <span></span>
             <span></span>
             <span></span>
+             <i class="fa fa-arrow-left" aria-hidden="true"></i>
         </div>
     </div>
 
@@ -341,10 +346,12 @@
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <div class="col-md-1 col-sm-1 col-xs-1"></div>
                                 <div class="col-md-11 col-sm-11 col-xs-11"></div>
-                                <p class="col-xs12"><a href="">Link Text</a> <a href="">Hover Link Text</a> Press Link Welcome to our wonderful world. We sincerely hope that
-                                    each and every user entering our website will find exactly what he/she is looking for.
-                                    <b>This is a bold text</b> <span class="high">Highlighted</span> <i class="italic">text Italic</i> text <a href="#" data-toggle="tooltip" title="Medical Center">Tooltips</a> <span class="overline">Strickethough Text</span> <u>Underlined
-                                    Text</u> With advanced features of activating account and new login widgets, you will definitely
+                                <p class="col-xs12"><a href="">Link Text</a> <a href="">Hover Link Text</a> Press Link Welcome to our wonderful
+                                    world. We sincerely hope that each and every user entering our website will find exactly
+                                    what he/she is looking for.
+                                    <b>This is a bold text</b> <span class="high">Highlighted</span> <i class="italic">text Italic</i>                                    text <a href="#" data-toggle="tooltip" title="Medical Center">Tooltips</a> <span class="overline">Strickethough Text</span>
+                                    <u>Underlined Text
+                                    </u> With advanced features of activating account and new login widgets, you will definitely
                                     have a great experience of using our web page. It will tell you lots of interesting things
                                     about our company, its products and services, highly professional staff and happy customers.
                                     Our site design and navigation has been thoroughly thought out.</p>
@@ -359,7 +366,7 @@
                             <div class="col-md-1 col-sm-1 col-xs-1"></div>
                             <div class="col-md-11 col-sm-11 col-xs-11"></div>
                             <div class="delete-pading">
-                            <p>Our professional staff provides the following services</p>
+                                <p>Our professional staff provides the following services</p>
                             </div>
                             <ul>
                                 <li><i class="fa fa-angle-right" aria-hidden="true"></i>Preventive Care</li>
@@ -368,7 +375,7 @@
                                 <li><i class="fa fa-angle-right" aria-hidden="true"></i>Teeth Whitening</li>
                             </ul>
                             <div class="delete-pading">
-                            <p>Our professional staff provides the following services</p>
+                                <p>Our professional staff provides the following services</p>
                             </div>
                             <ol>
                                 <li><span>Preventive Care</span></li>
@@ -421,30 +428,41 @@
                                 <div class="col-md-1 col-sm-1 col-xs-1"></div>
                                 <div class="col-md-11 col-sm-11 col-xs-10"></div>
                                 <img class="col-md-12 img-responsive" src="../images/pages/typography-01-770x420.jpg">
-                                <p class="col-md-12"><br><span class="black">Scott Riley,</span> Chief Dental Officer<br><br>Welcome to our wonderful world. We sincerely hope
-                                    that each and every user entering our website will find exactly what he/she is looking
-                                    for. With advanced features of activating account and new login widgets, you will definitely
-                                    have a great experience of using our web page. It will tell you lots of interesting things
-                                    about our company, its products and services, highly professional staff and happy customers.
-                                    Our site design and navigation has been thoroughly thought out. The layout is aesthetically
-                                    appealing, contains concise texts in order not to take your precious time.</p>
+                                <p class="col-md-12"><br><span class="black">Scott Riley,</span> Chief Dental Officer<br><br>Welcome to our wonderful
+                                    world. We sincerely hope that each and every user entering our website will find exactly
+                                    what he/she is looking for. With advanced features of activating account and new login
+                                    widgets, you will definitely have a great experience of using our web page. It will tell
+                                    you lots of interesting things about our company, its products and services, highly professional
+                                    staff and happy customers. Our site design and navigation has been thoroughly thought
+                                    out. The layout is aesthetically appealing, contains concise texts in order not to take
+                                    your precious time.</p>
                             </div>
                             <!---->
                             <h6 class="col-md-offset-0 col-md-12 col-sm-12 col-xs-12">IMAGE LEFT</h6>
                             <div class="col-md-12 col-sm-9 col-xs-7">
                                 <div class="col-md-1 col-sm-1 col-xs-1"></div>
                                 <div class="col-md-11 col-sm-11 col-xs-10"></div>
-                                 <img class="col-md-6 col-sm-6 col-xs-9 img-responsive" src="../images/pages/typography-02-340x220.jpg">
-                                <p class="col-md-6 col-sm-6 col-xs-12 img-lr-txt">Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page. It will tell you lots of interesting things about our company, its products and services, highly professional staff and happy customers. Our site design and navigation has been thoroughly thought out.</p>
+                                <img class="col-md-6 col-sm-6 col-xs-9 img-responsive" src="../images/pages/typography-02-340x220.jpg">
+                                <p class="col-md-6 col-sm-6 col-xs-12 img-lr-txt">Welcome to our wonderful world. We sincerely hope that each and every user entering our website
+                                    will find exactly what he/she is looking for. With advanced features of activating account
+                                    and new login widgets, you will definitely have a great experience of using our web page.
+                                    It will tell you lots of interesting things about our company, its products and services,
+                                    highly professional staff and happy customers. Our site design and navigation has been
+                                    thoroughly thought out.</p>
                             </div>
                             <!---->
                             <h6 class="col-md-offset-0 col-md-12 col-sm-12 col-xs-12">IMAGE RIGHT</h6>
                             <div class="col-md-12 col-sm-9 col-xs-7">
                                 <div class="col-md-1 col-sm-1 col-xs-1"></div>
                                 <div class="col-md-11 col-sm-11 col-xs-10"></div>
-                                
-                                <p class="col-md-6 col-sm-6 col-xs-12 img-lr-txt1">Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page. It will tell you lots of interesting things about our company, its products and services, highly professional staff and happy customers. Our site design and navigation has been thoroughly thought out.</p>
-                                 <img class="col-md-6 col-sm-6 col-xs-9 img-responsive" src="../images/pages/typography-02-340x220.jpg">
+
+                                <p class="col-md-6 col-sm-6 col-xs-12 img-lr-txt1">Welcome to our wonderful world. We sincerely hope that each and every user entering our website
+                                    will find exactly what he/she is looking for. With advanced features of activating account
+                                    and new login widgets, you will definitely have a great experience of using our web page.
+                                    It will tell you lots of interesting things about our company, its products and services,
+                                    highly professional staff and happy customers. Our site design and navigation has been
+                                    thoroughly thought out.</p>
+                                <img class="col-md-6 col-sm-6 col-xs-9 img-responsive" src="../images/pages/typography-02-340x220.jpg">
                             </div>
                         </div>
 

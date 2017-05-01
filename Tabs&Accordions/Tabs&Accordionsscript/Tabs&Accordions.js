@@ -1,16 +1,18 @@
 $(document).ready(function () {
-    // $(".search").click(function () {
-    //     $(".nav-pills").css({ "color": "white" }).html("<input placeholder='TYPE AND HIT ENTER'></input><b>X</b>");
-    //     $("input").css({
-    //         "width":"98%",
-    //         "padding":"8px",
-    //         "font-size":"30px",
-    //         "background":"transparent",
-    //         "color":"white",
-    //         "border":"0px"
-    //  });
-    //     console.log("A")
-    // })
+      $(".fornumber").click(function(){
+        $(".fornumber i").toggleClass("fa-ellipsis-v");
+       $(".fornumber i").toggleClass("fa-times");
+        
+    })
+ $(".search").click(function () {
+    $(".input").toggle();
+    $(".nav-pills").toggle();
+    })
+        $(".fa-times").click(function () {
+    $(".input").toggle();
+    $(".nav-pills").toggle();
+    })
+
 
    
     var i = 1;
@@ -30,9 +32,9 @@ $(document).ready(function () {
         console.log(i)
     })
     $(document).ready(function () {
-        $('#sidebar-btn').click(function () {
-            console.log($('#sidebar').width());
-            $('#sidebar-btn').toggleClass('visible1');
+ $('.sidebar-btn').click(function () {
+             $(".sidebar-btn span").toggle();
+            $(".fa-arrow-left").toggle()
             $('#sidebar').toggleClass('visible');
         });
         var accordion = document.querySelector('#sidebar');

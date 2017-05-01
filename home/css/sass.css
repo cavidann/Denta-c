@@ -662,7 +662,7 @@
 
   .footer {
     margin-top: 1000px;
-    height: 700px; }
+    height: 400px; }
 
   div.hours {
     margin-top: 150px !important; }
@@ -672,7 +672,10 @@
     margin-left: -103%; } }
 @media screen and (max-width: 991px) {
   .work {
-    height: 1126px; } }
+    height: 1126px; }
+
+  .testimonials .right .sec_pos .wordekran .fullsize .word1 .col-md-12 {
+    width: 80px; } }
 @media only screen and (max-width: 768px) {
   .head img {
     height: 180%; }
@@ -840,24 +843,22 @@ a {
   .footer .border {
     border-top: 1px solid lightslategrey;
     margin-top: 45px; }
-  .footer .icons {
-    margin-top: 30%; }
-    .footer .icons p {
-      float: left;
-      margin: 0 5px;
-      font-size: 21px;
-      color: lightslategrey; }
-    .footer .icons .fa {
-      padding: 10px;
-      width: 45px;
-      height: 45px;
-      border: 1px;
-      border-radius: 100%;
-      text-align: center;
-      background: white; }
-      .footer .icons .fa:hover {
-        background: #f57e57;
-        color: white; }
+  .footer .icons p {
+    float: left;
+    margin: 0 5px;
+    font-size: 21px;
+    color: lightslategrey; }
+  .footer .icons .fa {
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    border: 1px;
+    border-radius: 100%;
+    text-align: center;
+    background: white; }
+    .footer .icons .fa:hover {
+      background: #f57e57;
+      color: white; }
   .footer .logotext {
     padding-top: 7px; }
     .footer .logotext i {
@@ -907,9 +908,14 @@ a {
 a {
   margin: 0px !important; }
 
+@media screen and (max-width: 867px) {
+  .input-group {
+    width: 70% !important; } }
+@media screen and (max-width: 769px) {
+  .rotate {
+    margin-top: 400px; } }
 @media screen and (max-width: 486px) {
   .input-group {
-    background: red;
     width: 80% !important;
     left: 8% !important; }
 
@@ -932,5 +938,95 @@ a {
 
   h1 {
     font-size: 24px !important; } }
+.margin {
+  margin: 65px 0px; }
+
+.daire {
+  z-index: 10000 !important; }
+
+body {
+  overflow-x: hidden; }
+
+.onlycolor {
+  margin-top: 40px;
+  background-color: #f1f3f9; }
+  .onlycolor h1 {
+    font-size: 50px;
+    position: relative;
+    left: 43%; }
+  .onlycolor h1::after {
+    content: "";
+    width: 9%;
+    border-bottom: 4px solid #f57e57;
+    position: absolute;
+    top: 150%;
+    left: 1%; }
+
+.owl-stage {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%; }
+
+.media-body {
+  width: 0; }
+
+.team p {
+  margin-top: 15px;
+  text-align: left;
+  color: gray;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif; }
+
+.tel {
+  position: absolute;
+  top: 37%;
+  left: 42%; }
+  .tel i {
+    font-size: 24px;
+    color: #18afd3; }
+  .tel a {
+    color: #434445;
+    font-size: 21px; }
+    .tel a:hover {
+      color: #f57e57; }
+
+.blue {
+  text-align: left;
+  color: #18afd3;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif; }
+
+h4 {
+  color: gray;
+  font-style: italic;
+  text-align: left; }
+
+h1 {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  position: relative;
+  font-size: 70px; }
+
+#dots {
+  margin-top: 10%;
+  margin-bottom: 10%; }
+  #dots .dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: gray;
+    margin-right: 20px; }
+    #dots .dot:hover {
+      cursor: pointer;
+      background: #18afd3; }
+  #dots .active {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #18afd3; }
+
+.btn-default h4 {
+  color: white !important; }
 
 /*# sourceMappingURL=sass.css.map */

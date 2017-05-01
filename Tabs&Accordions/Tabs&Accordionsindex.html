@@ -21,7 +21,7 @@
             <div class="container">
                 <div class="row">
                     <a class="navbar-brand col-md-offset-0 col-md-5 col-xs-offset-5 col-xs-4" href="#">
-                        <img alt="Brand" src="../images/logo-dark.png" class="img-responsive"> 
+                        <img alt="Brand" src="../images/logo-dark.png" class="img-responsive">
                     </a>
                     <div class="col-md-7">
                         <div class="col-md-5">
@@ -51,6 +51,11 @@
         <div class="container">
             <div class="row">
                 <div class=" menu centered">
+                    <div class="input">
+                            <input placeholder="TYPE AND HIT ENTER">
+                            <i class='fa fa-times'></i>
+                        </div>
+
                     <ul class="nav nav-pills">
                         <li role="presentation"><a href="../home/index.html"><b>HOME</b></a></li>
                         <li role="presentation"><a href=""><b>ABOUT</b></a></li>
@@ -71,7 +76,7 @@
                                         <a href="../buttons/buttons.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Buttons</a>
                                         <a href="../grid/gridindex.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Grid</a>
                                         <a href="../Tabs&Accordions/Tabs&Accordionsindex.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Tabs & Accordions</a>
-                                        <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Progress Bars</a>
+                                        <a href="../prg/buttons.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Progress Bars</a>
                                         <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Icons</a>
                                         <a href="../tables/tablesindex.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Tables</a>
                                     </div>
@@ -113,7 +118,7 @@
                         </li>
                         <li><a href=""><b>SERVICES</b></a></li>
                         <li><a href=""><b>DEPARTMENTS</b></a></li>
-                        <li><a href=""><b>TIMETABLE</b></a></li>
+                        <li><a href="../timetable/timetable.html"><b>TIMETABLE</b></a></li>
                         <li role="presentation" class="dropdown"><a href="#"><b>                       
                         GALERY
                          <i class="fa fa-angle-down" aria-hidden="true"></i></a> </b>
@@ -151,10 +156,10 @@
             </div>
         </div>
     </div>
-    <div class="fornumber">
-        <span></span>
-        <span></span>
-        <span></span>
+      <div class="fornumber">
+        <div class="spans">
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+        </div>
     </div>
     <div class="kvadrat">
 
@@ -185,7 +190,7 @@
                 <a href="../buttons/buttons.html"><li><i class="fa fa-angle-right" aria-hidden="true"></i>Buttons</li></a>
                 <a href="../grid/gridindex.html"><li><i class="fa fa-angle-right" aria-hidden="true"></i>Grid</li></a>
                 <a href="../Tabs&Accordions/Tabs&Accordionsindex.html"><li><i class="fa fa-angle-right" aria-hidden="true"></i>Tabs & Accordions</li></a>
-                <a><li><i class="fa fa-angle-right" aria-hidden="true"></i>Progress Bars</li></a>
+                <a href="../prg/buttons.html"><li><i class="fa fa-angle-right" aria-hidden="true"></i>Progress Bars</li></a>
                 <a><li><i class="fa fa-angle-right" aria-hidden="true"></i>Icons</li></a>
                 <a href="../tables/tablesindex.html"><li><i class="fa fa-angle-right" aria-hidden="true"></i>Tables</li></a>
                 <a><li><i class="fa fa-angle-right" aria-hidden="true"></i>Team Member Profile</li></a>
@@ -208,7 +213,7 @@
             </li>
             <li><a href=""><b>SERVICES</b></a></li>
             <li><a href=""><b>DEPARTMENTS</b></a></li>
-            <li><a href=""><b>TIMETABLE</b></a></li>
+            <li><a href="../timetable/timetable.html"><b>TIMETABLE</b></a></li>
             <li class="dropdown_galery"><b>GALERY<i class="fa fa-angle-down  pull-right" aria-hidden="true"></i>
             
             <ul class="galery">
@@ -231,10 +236,11 @@
                     <li><a href=""><b>CONTACTS</b></a></li>
         </ul>
 
-        <div id="sidebar-btn">
+        <div class="sidebar-btn">
             <span></span>
             <span></span>
             <span></span>
+             <i class="fa fa-arrow-left" aria-hidden="true"></i>
         </div>
     </div>
     <div class="tabs_accordions">
@@ -290,11 +296,56 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
-                        <h3 class="col-md-8 col-sm8 col-xs-8">Default Tab</h3>
+                        <h3 class="col-md-8 col-sm8 col-xs-8">CLASSIC TABS</h3>
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="line"></div>
                         </div>
-                        <div class="tabbable-panel col-md-8 col-sm-8 col-xs-8">
+                        <!--ppppppppppppppppp-->
+                        <div class="accordion col-md-8 col-sm-8 col-xs-8 hide">
+                            <div class="item">
+                                <div class="head">
+                                    TAB1<i id="plus" class="fa fa-plus" aria-hidden="true"></i>
+
+                                </div>
+                                <div class="body">
+                                    <p>
+                                        Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page. It will tell you lots of interesting things about our company, its products and services, highly professional staff and happy customers. Our site design and navigation has been thoroughly thought out. The layout is aesthetically appealing, contains concise texts in order not to take your precious time.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="head">
+                                    TAB2<i id="plus" class="fa fa-plus" aria-hidden="true"></i>
+                                </div>
+                                <div class="body">
+                                    <p>
+                                        At SANA Medical Center we commit ourselves as a medical home for your kids and strive to ensure that each child receives care at the appropriate time in the appropriate setting. We strive to provide the best possible quality care to any child and their family with compassion and kindness.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="head">
+                                    TAB3<i id="plus" class="fa fa-plus" aria-hidden="true"></i>
+                                </div>
+                                <div class="body">
+                                    <p>
+                                       The experienced dentists of SANA Medical Center are your partners in dental care; they will work with you to give you a healthy and dazzling smile—making dental care both accessible and affordable. Whether you’re coming to our office for routine cleanings or are in need of restorative dentistry or oral surgery, our goal is to offer quality dental care and unmatched customer service, taking the time to address your concerns and answer your questions.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="head">
+                                    TAB4<i id="plus" class="fa fa-plus" aria-hidden="true"></i>
+                                </div>
+                                <div class="body">
+                                    <p>
+                                     Painful feelings such as anxiety, anger, depression, low self-esteem, and tension are a normal part of being human and can affect anyone. Sometimes these feelings are temporary and can be eased by rest, relaxation, exercise, good nutrition, and support of trusted friends. At other times, stressors, relationships, or past family experiences cannot be managed so easily and become overwhelming. When this happens, and you find it hard to function, you may want to seek professional help.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--hhhhhhhhhhhhhhh-->
+                        <div class="tabbable-panel col-md-8 col-sm-8 col-xs-8 hide1">
                             <div class="tabbable-line">
                                 <ul class="nav nav-tabs ">
                                     <li class="active">
@@ -365,11 +416,56 @@
                                 </div>
                             </div>
                         </div>
-                        <h3 class="col-md-8 col-sm-8 col-xs-8">CLASSIC VERTICAL TABSb</h3>
+                        <h3 class="col-md-8 col-sm-8 col-xs-8">CLASSIC VERTICAL TABS</h3>
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="line"></div>
                         </div>
-                        <div class="tabbable-panel second col-md-8 col-sm-8 col-xs-8">
+                        <!--lgsdubufggggggggggggg-->
+                         <div class="accordion col-md-8 col-sm-8 col-xs-8 hide">
+                            <div class="item">
+                                <div class="head">
+                                    TAB1<i id="plus" class="fa fa-plus" aria-hidden="true"></i>
+
+                                </div>
+                                <div class="body">
+                                    <p>
+                                        Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page. It will tell you lots of interesting things about our company, its products and services, highly professional staff and happy customers. Our site design and navigation has been thoroughly thought out. The layout is aesthetically appealing, contains concise texts in order not to take your precious time.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="head">
+                                    TAB2<i id="plus" class="fa fa-plus" aria-hidden="true"></i>
+                                </div>
+                                <div class="body">
+                                    <p>
+                                        At SANA Medical Center we commit ourselves as a medical home for your kids and strive to ensure that each child receives care at the appropriate time in the appropriate setting. We strive to provide the best possible quality care to any child and their family with compassion and kindness.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="head">
+                                    TAB3<i id="plus" class="fa fa-plus" aria-hidden="true"></i>
+                                </div>
+                                <div class="body">
+                                    <p>
+                                       The experienced dentists of SANA Medical Center are your partners in dental care; they will work with you to give you a healthy and dazzling smile—making dental care both accessible and affordable. Whether you’re coming to our office for routine cleanings or are in need of restorative dentistry or oral surgery, our goal is to offer quality dental care and unmatched customer service, taking the time to address your concerns and answer your questions.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="head">
+                                    TAB4<i id="plus" class="fa fa-plus" aria-hidden="true"></i>
+                                </div>
+                                <div class="body">
+                                    <p>
+                                     Painful feelings such as anxiety, anger, depression, low self-esteem, and tension are a normal part of being human and can affect anyone. Sometimes these feelings are temporary and can be eased by rest, relaxation, exercise, good nutrition, and support of trusted friends. At other times, stressors, relationships, or past family experiences cannot be managed so easily and become overwhelming. When this happens, and you find it hard to function, you may want to seek professional help.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--yyyyyyyyyyyyyyyyy-->
+                        <div class="tabbable-panel second col-md-8 col-sm-8 col-xs-8 hide1">
                             <div class="tabbable-line">
                                 <ul class="nav nav-tabs">
                                     <li class="active">
@@ -441,7 +537,7 @@
                             </div>
                         </div>
                         <div class="clearfix"></div>
-                        <h3 class="col-md-12 col-sm-12 col-xs-12">CLASSIC VERTICAL TABSb</h3>
+                        <h3 class="col-md-12 col-sm-12 col-xs-12">CLASSIC ACCORDION</h3>
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="line1"></div>
                         </div>
@@ -492,7 +588,7 @@
                         </div>
 
                         <div class="clearfix"></div>
-                        <h3 class="col-md-12 col-sm-12 col-xs-12"> EKFGDGF</h3>
+                        <h3 class="col-md-12 col-sm-12 col-xs-12">ALTERNATIVE ACCORDION</h3>
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="line1"></div>
                         </div>

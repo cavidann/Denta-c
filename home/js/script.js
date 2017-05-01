@@ -103,3 +103,18 @@ $(document).ready(function() {
         }
     });
  }); 
+ $(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1200:{
+            items:3
+        }
+    }
+  });
+});

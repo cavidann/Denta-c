@@ -303,9 +303,14 @@ input{
     transition: left 0.5s linear;
     overflow: scroll; 
     overflow-x: hidden; 
+        li{
+      img{
+        margin-top: 130px !important; 
+      }
+    }
 }
 
-#sidebar-btn{
+.sidebar-btn{
     display: inline-block;
     vertical-align: middle;
     width: 20px;
@@ -323,7 +328,7 @@ display: none;
 }
   transition: left 0.5s linear; 
 }
-#sidebar-btn.visible1{
+.sidebar-btn.visible1{
     left:$menu_width;
     transition: left 0.5s linear;  
 }
@@ -431,6 +436,16 @@ z-index: 200;
       }
 
   }
+  .hide1{
+    display: none;
+  }
+  .hide{
+    color: $blue !important;
+  display:inline-block !important;
+  i{
+    color: grey !important;
+  }
+}
   .header .navbar-brand{
  .img-responsive{
         margin-left: 130% !important;
@@ -439,7 +454,7 @@ z-index: 200;
   .menu{
      display: none;
    }
-    #sidebar-btn{         
+    .sidebar-btn{         
     span{    
 display: block;
 }
@@ -460,10 +475,15 @@ display: block;
     }
   }
 }
+.hide{
+  display: none;
+}
+
 @media (min-width: 992px) {
 .navbar-brand{
   display: none;
 }
+
 }
 @media (min-width: 992px) {
   .navbar-brand{
@@ -806,8 +826,46 @@ ul.nav.nav-tabs{
   height: 3px;
   margin: 10px 0;
 }
-@media screen and (max-width:440px){
+@media screen and (max-width:695px){
   h1{
     font-size: 24px !important; 
   }
+   pre{
+    font-size: 13px;
+  }
+}
+.first_menu{
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+ .input{
+     color: white !important;
+   display: none;
+   font-size:30px;
+input{ 
+    width:95%;
+    padding:8px;
+            font-size:30px;
+           background:transparent;
+           color:white !important;
+           border:0px;
+            .fa-times{
+             display: none !important;
+           
+           }
+  }
+ }
+  
+}
+.fornumber{
+.fa-times{
+  font-size: 30px; 
+}
+.fa-ellipsis-v{
+  font-size: 30px; 
+}
+}
+.fa-arrow-left{
+  display: none;
+  font-size: 24px; 
 }

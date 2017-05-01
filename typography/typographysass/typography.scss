@@ -305,9 +305,14 @@ input{
     transition: left 0.5s linear;
     overflow: scroll; 
     overflow-x: hidden; 
+        li{
+      img{
+        margin-top: 130px !important; 
+      }
+    }
 }
 
-#sidebar-btn{
+.sidebar-btn{
     display: inline-block;
     vertical-align: middle;
     width: 20px;
@@ -325,7 +330,7 @@ display: none;
 }
   transition: left 0.5s linear; 
 }
-#sidebar-btn.visible1{
+.sidebar-btn.visible1{
     left:$menu_width;
     transition: left 0.5s linear;  
 }
@@ -432,7 +437,7 @@ z-index: 200;
   .menu{
      display: none;
    }
-    #sidebar-btn{         
+    .sidebar-btn{         
     span{    
 display: block;
 }
@@ -808,4 +813,41 @@ a{
 a{
     //  padding: 18px!important;
   margin: 0px !important;
+}
+.first_menu{
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+ .input{
+     color: white !important;
+   display: none;
+   font-size:30px;
+input{ 
+    width:95%;
+    padding:8px;
+            font-size:30px;
+           background:transparent;
+           color:white !important;
+           border:0px;
+            .fa-times{
+             display: none !important;
+           
+           }
+  }
+ }
+  
+}
+.fornumber{
+.fa-times{
+  font-size: 30px; 
+}
+.fa-ellipsis-v{
+  font-size: 30px; 
+}
+}
+
+
+.fa-arrow-left{
+  display: none;
+  font-size: 24px; 
 }
